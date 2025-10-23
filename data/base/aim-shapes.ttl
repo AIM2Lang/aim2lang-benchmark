@@ -1,0 +1,67 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix aim: <http://aim2lang.org/ontology/aim#> .
+
+# Node shape for AIM instances
+aim:AIMShape a sh:NodeShape ;
+  sh:targetClass aim:AIM ;
+  sh:property [
+    sh:path rdfs:label ;
+    sh:minCount 1 ;
+    sh:datatype xsd:string ;
+  ] ;
+  sh:property [
+    sh:path dct:description ;
+    sh:minCount 1 ;
+    sh:datatype xsd:string ;
+  ] ;
+  sh:property [
+    sh:path dct:language ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path aim:level ;
+    sh:minCount 1 ;
+    sh:class aim:Level ;
+  ] ;
+  sh:property [
+    sh:path aim:bloomLevel ;
+    sh:minCount 1 ;
+    sh:class aim:Bloom ;
+  ] ;
+  sh:property [
+    sh:path aim:hasSkill ;
+    sh:minCount 1 ;
+    sh:class aim:Skill ;
+  ] ;
+  sh:property [
+    sh:path aim:hasRubricItem ;
+    sh:minCount 1 ;
+    sh:class aim:RubricItem ;
+  ] .
+
+# Node shape for RubricItem
+aim:RubricItemShape a sh:NodeShape ;
+  sh:targetClass aim:RubricItem ;
+  sh:property [
+    sh:path rdfs:label ;
+    sh:minCount 1 ;
+    sh:datatype xsd:string ;
+  ] ;
+  sh:property [
+    sh:path aim:position ;
+    sh:minCount 1 ;
+    sh:datatype xsd:integer ;
+  ] .
+
+# Closed value set for Bloom levels
+aim:BloomValueSet a sh:NodeShape ;
+  sh:targetClass aim:Bloom ;
+  sh:property [
+    sh:path skos:prefLabel ;
+    sh:in ( "Remember" "Understand" "Apply" "Analyze" "Evaluate" "Create" ) ;
+  ] .

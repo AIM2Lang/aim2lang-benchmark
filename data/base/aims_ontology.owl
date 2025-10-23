@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dct="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:aim="http://aim2lang.org/ontology/aim#" xml:base="http://aim2lang.org/">
+
+  <owl:Ontology rdf:about="http://aim2lang.org/ontology/aim">
+    <dct:title xml:lang="en">AIM2Lang Ontology (TBox)</dct:title>
+    <owl:versionInfo>0.2.0</owl:versionInfo>
+  </owl:Ontology>
+
+  <!-- Classes -->
+  <owl:Class rdf:about="http://aim2lang.org/ontology/aim#AIM"><rdfs:label xml:lang="en">AIM instance</rdfs:label></owl:Class>
+  <owl:Class rdf:about="http://aim2lang.org/ontology/aim#Skill"><rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><rdfs:label xml:lang="en">Skill</rdfs:label></owl:Class>
+  <owl:Class rdf:about="http://aim2lang.org/ontology/aim#Level"><rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><rdfs:label xml:lang="en">CEFR level</rdfs:label></owl:Class>
+  <owl:Class rdf:about="http://aim2lang.org/ontology/aim#Bloom"><rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><rdfs:label xml:lang="en">Bloom level</rdfs:label></owl:Class>
+  <owl:Class rdf:about="http://aim2lang.org/ontology/aim#RubricItem"><rdfs:label xml:lang="en">Rubric item</rdfs:label></owl:Class>
+
+  <!-- Object properties -->
+  <owl:ObjectProperty rdf:about="http://aim2lang.org/ontology/aim#hasSkill">
+    <rdfs:domain rdf:resource="http://aim2lang.org/ontology/aim#AIM"/><rdfs:range rdf:resource="http://aim2lang.org/ontology/aim#Skill"/>
+    <rdfs:label xml:lang="en">has skill</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://aim2lang.org/ontology/aim#level">
+    <rdfs:domain rdf:resource="http://aim2lang.org/ontology/aim#AIM"/><rdfs:range rdf:resource="http://aim2lang.org/ontology/aim#Level"/>
+    <rdfs:label xml:lang="en">has level</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://aim2lang.org/ontology/aim#bloomLevel">
+    <rdfs:domain rdf:resource="http://aim2lang.org/ontology/aim#AIM"/><rdfs:range rdf:resource="http://aim2lang.org/ontology/aim#Bloom"/>
+    <rdfs:label xml:lang="en">has Bloom level</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://aim2lang.org/ontology/aim#prerequisite">
+    <rdfs:domain rdf:resource="http://aim2lang.org/ontology/aim#AIM"/><rdfs:range rdf:resource="http://aim2lang.org/ontology/aim#AIM"/>
+    <rdfs:label xml:lang="en">has prerequisite</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://aim2lang.org/ontology/aim#isPrerequisiteOf">
+    <rdfs:domain rdf:resource="http://aim2lang.org/ontology/aim#AIM"/><rdfs:range rdf:resource="http://aim2lang.org/ontology/aim#AIM"/>
+    <owl:inverseOf rdf:resource="http://aim2lang.org/ontology/aim#prerequisite"/>
+    <rdfs:label xml:lang="en">is prerequisite of</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://aim2lang.org/ontology/aim#advanced">
+    <rdfs:domain rdf:resource="http://aim2lang.org/ontology/aim#AIM"/><rdfs:range rdf:resource="http://aim2lang.org/ontology/aim#AIM"/>
+    <rdfs:label xml:lang="en">advanced successor</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://aim2lang.org/ontology/aim#hasRubricItem">
+    <rdfs:domain rdf:resource="http://aim2lang.org/ontology/aim#AIM"/><rdfs:range rdf:resource="http://aim2lang.org/ontology/aim#RubricItem"/>
+    <rdfs:label xml:lang="en">has rubric item</rdfs:label>
+  </owl:ObjectProperty>
+
+  <!-- Datatype properties -->
+  <owl:DatatypeProperty rdf:about="http://aim2lang.org/ontology/aim#position">
+    <rdfs:domain rdf:resource="http://aim2lang.org/ontology/aim#RubricItem"/><rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:label xml:lang="en">position</rdfs:label>
+  </owl:DatatypeProperty>
+
+  <!-- Concept schemes -->
+  <skos:ConceptScheme rdf:about="http://aim2lang.org/ontology/aim#SkillScheme"><skos:prefLabel xml:lang="en">AIM skills</skos:prefLabel></skos:ConceptScheme>
+  <skos:ConceptScheme rdf:about="http://aim2lang.org/ontology/aim#LevelScheme"><skos:prefLabel xml:lang="en">CEFR levels</skos:prefLabel></skos:ConceptScheme>
+  <skos:ConceptScheme rdf:about="http://aim2lang.org/ontology/aim#BloomScheme"><skos:prefLabel xml:lang="en">Bloom taxonomy</skos:prefLabel></skos:ConceptScheme>
+
+  <!-- Skill concepts -->
+  <aim:Skill rdf:about="http://aim2lang.org/ontology/aim#listening"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#SkillScheme"/><skos:prefLabel xml:lang="en">listening</skos:prefLabel></aim:Skill>
+  <aim:Skill rdf:about="http://aim2lang.org/ontology/aim#speaking"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#SkillScheme"/><skos:prefLabel xml:lang="en">speaking</skos:prefLabel></aim:Skill>
+  <aim:Skill rdf:about="http://aim2lang.org/ontology/aim#reading"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#SkillScheme"/><skos:prefLabel xml:lang="en">reading</skos:prefLabel></aim:Skill>
+  <aim:Skill rdf:about="http://aim2lang.org/ontology/aim#writing"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#SkillScheme"/><skos:prefLabel xml:lang="en">writing</skos:prefLabel></aim:Skill>
+  <aim:Skill rdf:about="http://aim2lang.org/ontology/aim#vocabulary"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#SkillScheme"/><skos:prefLabel xml:lang="en">vocabulary</skos:prefLabel></aim:Skill>
+  <aim:Skill rdf:about="http://aim2lang.org/ontology/aim#grammar"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#SkillScheme"/><skos:prefLabel xml:lang="en">grammar</skos:prefLabel></aim:Skill>
+
+  <!-- Level concepts -->
+  <aim:Level rdf:about="http://aim2lang.org/ontology/aim#A1"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#LevelScheme"/><skos:prefLabel>A1</skos:prefLabel></aim:Level>
+  <aim:Level rdf:about="http://aim2lang.org/ontology/aim#A2"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#LevelScheme"/><skos:prefLabel>A2</skos:prefLabel></aim:Level>
+  <aim:Level rdf:about="http://aim2lang.org/ontology/aim#B1"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#LevelScheme"/><skos:prefLabel>B1</skos:prefLabel></aim:Level>
+  <aim:Level rdf:about="http://aim2lang.org/ontology/aim#B2"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#LevelScheme"/><skos:prefLabel>B2</skos:prefLabel></aim:Level>
+  <aim:Level rdf:about="http://aim2lang.org/ontology/aim#C1"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#LevelScheme"/><skos:prefLabel>C1</skos:prefLabel></aim:Level>
+  <aim:Level rdf:about="http://aim2lang.org/ontology/aim#C2"><skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#LevelScheme"/><skos:prefLabel>C2</skos:prefLabel></aim:Level>
+
+  <aim:Bloom rdf:about="http://aim2lang.org/ontology/aim#Bloom_Remember">
+    <skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#BloomScheme"/>
+    <skos:prefLabel xml:lang="en">Remember</skos:prefLabel>
+  </aim:Bloom>
+  <aim:Bloom rdf:about="http://aim2lang.org/ontology/aim#Bloom_Understand">
+    <skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#BloomScheme"/>
+    <skos:prefLabel xml:lang="en">Understand</skos:prefLabel>
+  </aim:Bloom>
+  <aim:Bloom rdf:about="http://aim2lang.org/ontology/aim#Bloom_Apply">
+    <skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#BloomScheme"/>
+    <skos:prefLabel xml:lang="en">Apply</skos:prefLabel>
+  </aim:Bloom>
+  <aim:Bloom rdf:about="http://aim2lang.org/ontology/aim#Bloom_Analyze">
+    <skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#BloomScheme"/>
+    <skos:prefLabel xml:lang="en">Analyze</skos:prefLabel>
+  </aim:Bloom>
+  <aim:Bloom rdf:about="http://aim2lang.org/ontology/aim#Bloom_Evaluate">
+    <skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#BloomScheme"/>
+    <skos:prefLabel xml:lang="en">Evaluate</skos:prefLabel>
+  </aim:Bloom>
+  <aim:Bloom rdf:about="http://aim2lang.org/ontology/aim#Bloom_Create">
+    <skos:inScheme rdf:resource="http://aim2lang.org/ontology/aim#BloomScheme"/>
+    <skos:prefLabel xml:lang="en">Create</skos:prefLabel>
+  </aim:Bloom>
+</rdf:RDF>
