@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Task 1 – Goal Understanding",
+  "type": "object",
+  "required": [
+    "input",
+    "output"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "input": {
+      "type": "object",
+      "required": [
+        "goal_text"
+      ],
+      "properties": {
+        "goal_text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "required": [
+        "topic",
+        "skill",
+        "bloom_level",
+        "intent_type"
+      ],
+      "properties": {
+        "topic": {
+          "type": "string",
+          "enum": [
+            "English"
+          ]
+        },
+        "skill": {
+          "type": "string",
+          "enum": [
+            "grammar",
+            "listening",
+            "reading",
+            "speaking",
+            "vocabulary",
+            "writing"
+          ]
+        },
+        "bloom_level": {
+          "type": "string",
+          "enum": [
+            "Analyze",
+            "Apply",
+            "Create",
+            "Evaluate",
+            "Remember",
+            "Understand"
+          ]
+        },
+        "intent_type": {
+          "type": "string",
+          "enum": [
+            "concept-based",
+            "task-based"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "meta": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}
