@@ -1,0 +1,4 @@
+pandas>=1.5
+openpyxl>=3.1
+jsonlines>=4.0
+PyPDF2>=3.0
