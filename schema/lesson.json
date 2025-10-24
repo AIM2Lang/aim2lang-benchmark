@@ -1,0 +1,66 @@
+[{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lesson Container (Unit-level)",
+  "type": "object",
+  "required": ["lessonId","label","cefr","skills","knowledgePoints"],
+  "properties": {
+    "lessonId": { "type": "string" },
+    "label": { "type": "string" },
+    "bookSource": { "type": "string", "description": "Destination B1 Unit 5 p.42–49" },
+    "domain": { "type": "string", "enum": ["English","Math","Science","Other"] },
+    "cefr": { "type": "string", "enum": ["A1","A2","B1","B2","C1","C2"] },
+    "skills": {
+      "type": "array", "items": { "type": "string" }
+    },
+    "mainAimIds": {
+      "type": "array", "items": { "type": "string" },
+      "description": "AIMs chính mà lesson phục vụ"
+    },
+    "description": { "type": "string" },
+    "knowledgePoints": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["kpId","sequence"],
+        "properties": {
+          "kpId": { "type": "string" },
+          "sequence": { "type": "integer" },
+          "importance": { "type": "string", "enum": ["core","supporting"], "default": "core" }
+        }
+      }
+    },
+    "assessmentPolicy": {
+      "type": "string",
+      "enum": ["all-required","k-of-n","weighted-pass"],
+      "default": "all-required"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "pages": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      }
+    }
+  },
+  "additionalProperties": false
+
+},
+
+{
+  "lessonId": "LESS.EN.B1.U05",
+  "label": "Narrative Past – Past Simple and Continuous",
+  "bookSource": "Destination B1 Unit 5 p.42–49",
+  "domain": "English",
+  "cefr": "B1",
+  "skills": ["grammar","reading","writing"],
+  "mainAimIds": ["AIM.EN.B1.005a","AIM.EN.B1.005b"],
+  "description": "Learners narrate completed and ongoing past events using appropriate tense contrast.",
+  "knowledgePoints": [
+    {"kpId":"KP.EN.B1.PastSimple.Usage","sequence":1,"importance":"core"},
+    {"kpId":"KP.EN.B1.PastContinuous.Contrast","sequence":2,"importance":"core"},
+    {"kpId":"KP.EN.B1.TimeAdverbials.Past","sequence":3,"importance":"supporting"}
+  ],
+  "assessmentPolicy": "all-required",
+  "metadata": {"pages":"42–49","createdAt":"2025-10-24T12:10:00Z"}
+}
+]

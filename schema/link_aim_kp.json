@@ -1,0 +1,25 @@
+[{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AIM–KnowledgePoint Link",
+  "type": "object",
+  "required": ["aimId","kpId","relation"],
+  "properties": {
+    "aimId": { "type": "string" },
+    "kpId": { "type": "string" },
+    "relation": {
+      "type": "string",
+      "enum": ["introduces","reinforces","assesses"]
+    },
+    "weight": { "type": "number", "minimum": 0, "maximum": 1 },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+},
+{
+  "aimId": "AIM.EN.B1.005a",
+  "kpId": "KP.EN.B1.PastSimple.Usage",
+  "relation": "introduces",
+  "weight": 0.9
+}
+
+]

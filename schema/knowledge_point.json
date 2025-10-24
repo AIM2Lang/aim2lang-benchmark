@@ -1,0 +1,66 @@
+[{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Knowledge Point",
+  "type": "object",
+  "required": ["kpId","label","category","definition"],
+  "properties": {
+    "kpId": { "type": "string" },
+    "label": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "category": { "type": "string", "enum": ["concept","procedure","pattern","strategy"] },
+    "definition": { "type": "string" },
+    "examples": {
+      "type": "object",
+      "properties": {
+        "positive": { "type": "array", "items": { "type": "string" } },
+        "negative": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "misconceptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "error": { "type": "string" },
+          "fix": { "type": "string" }
+        }
+      }
+    },
+    "relations": {
+      "type": "object",
+      "properties": {
+        "prerequisites": { "type": "array", "items": { "type": "string" } },
+        "successors": { "type": "array", "items": { "type": "string" } },
+        "related": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "assessment": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "prompt": { "type": "string" },
+          "expected": { "type": "string" }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "cefr": { "type": "string" },
+        "skill": { "type": "string" }
+      }
+    }
+  },
+  "additionalProperties": false
+},
+{
+  "kpId": "KP.EN.B1.PastSimple.Usage",
+  "label": "Past Simple for completed actions",
+  "category": "pattern",
+  "definition": "Use Past Simple (V-ed or 2nd form) to describe actions completed in the past.",
+  "examples": { "positive": ["I visited Rome last year."], "negative": ["I have visited Rome last year."] },
+  "relations": { "successors": ["KP.EN.B1.PastContinuous.Contrast"] },
+  "metadata": { "cefr":"B1","skill":"grammar" }
+}
+]
