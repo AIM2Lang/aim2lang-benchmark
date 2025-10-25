@@ -1,0 +1,12 @@
+{"aimId": "AIM.EN.B1.001a", "kpId": "KP.EN.B1.PresentSimple.Usage", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.001a", "kpId": "KP.EN.B1.PresentContinuous.Usage", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.001a", "kpId": "KP.EN.B1.StativeVerbs.Recognition", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.002b", "kpId": "KP.EN.B1.PastSimple.Usage", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.002b", "kpId": "KP.EN.B1.PastContinuous.Usage", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.002b", "kpId": "KP.EN.B1.UsedTo.FormAndMeaning", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.043a", "kpId": "KP.EN.B1.PresentSimple.Usage", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.043a", "kpId": "KP.EN.B1.PresentContinuous.Usage", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.043a", "kpId": "KP.EN.B1.StativeVerbs.Recognition", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.044b", "kpId": "KP.EN.B1.PastSimple.Usage", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.044b", "kpId": "KP.EN.B1.PastContinuous.Usage", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.044b", "kpId": "KP.EN.B1.UsedTo.FormAndMeaning", "relation": "introduces", "weight": 0.76}
