@@ -1,0 +1,6 @@
+{"aimId": "AIM.EN.B2.003c", "kpId": "KP.EN.B2.PastSimple.Usage", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B2.003c", "kpId": "KP.EN.B2.PastContinuous.Usage", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B2.003c", "kpId": "KP.EN.B2.PastPerfect.Simple", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B2.003c", "kpId": "KP.EN.B2.PastPerfect.Continuous", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B2.003c", "kpId": "KP.EN.B2.UsedTo.FormMeaning", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B2.003c", "kpId": "KP.EN.B2.BeGetUsedTo.FormMeaning", "relation": "introduces", "weight": 0.76}

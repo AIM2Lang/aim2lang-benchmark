@@ -1,0 +1,5 @@
+{"aimId": "AIM.EN.C1.003c", "kpId": "KP.EN.C1.PastSimple.Advanced", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.C1.003c", "kpId": "KP.EN.C1.PastContinuous.Advanced", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.C1.003c", "kpId": "KP.EN.C1.PastPerfect.Simple", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.C1.003c", "kpId": "KP.EN.C1.PastPerfect.Continuous", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.C1.003c", "kpId": "KP.EN.C1.UsedTo.Advanced", "relation": "introduces", "weight": 0.76}

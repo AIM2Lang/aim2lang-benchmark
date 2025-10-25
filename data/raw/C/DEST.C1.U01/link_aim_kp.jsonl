@@ -1,0 +1,5 @@
+{"aimId": "AIM.EN.C1.001a", "kpId": "KP.EN.C1.PresentSimple.Advanced", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.C1.001a", "kpId": "KP.EN.C1.PresentContinuous.Advanced", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.C1.001a", "kpId": "KP.EN.C1.PresentPerfect.Simple", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.C1.001a", "kpId": "KP.EN.C1.PresentPerfect.Continuous", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.C1.001a", "kpId": "KP.EN.C1.StativeVerbs.Advanced", "relation": "introduces", "weight": 0.76}

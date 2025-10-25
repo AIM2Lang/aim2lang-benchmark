@@ -1,0 +1,3 @@
+{"aimId": "AIM.EN.C1.009c", "kpId": "KP.EN.C1.Modals.DeductionSpeculation", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.C1.009c", "kpId": "KP.EN.C1.Modals.ObligationNecessity", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.C1.009c", "kpId": "KP.EN.C1.SemiModals.UsedToHaveToBeAbleTo", "relation": "introduces", "weight": 0.76}
