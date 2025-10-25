@@ -1,0 +1,4 @@
+{"aimId": "AIM.EN.A2.010a", "kpId": "KP.EN.A2.Grammar.ReportedSpeech", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.A2.010a", "kpId": "KP.EN.A2.Grammar.Statements", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.A2.010a", "kpId": "KP.EN.A2.Grammar.Questions", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.A2.010a", "kpId": "KP.EN.A2.TopicVocabulary.ReportingAndSummarizing", "relation": "introduces", "weight": 0.76}
