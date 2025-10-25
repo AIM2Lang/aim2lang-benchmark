@@ -1,0 +1,3 @@
+{"aimId": "AIM.EN.B1.023b", "kpId": "KP.EN.B1.Questions.Direct", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.023b", "kpId": "KP.EN.B1.Questions.QuestionTags", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.023b", "kpId": "KP.EN.B1.Questions.Indirect", "relation": "introduces", "weight": 0.76}

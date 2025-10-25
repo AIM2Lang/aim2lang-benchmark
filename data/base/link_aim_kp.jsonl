@@ -24,3 +24,17 @@
 {"aimId": "AIM.EN.B1.045c", "kpId": "KP.EN.B1.WordPatterns.FunAndGames", "relation": "introduces", "weight": 0.76}
 {"aimId": "AIM.EN.B1.046a", "kpId": "KP.EN.B1.PresentPerfectContinuous.Usage", "relation": "introduces", "weight": 0.76}
 {"aimId": "AIM.EN.B1.046a", "kpId": "KP.EN.B1.PresentPerfectSimple.Usage", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.005b", "kpId":"KP.EN.B1.PastPerfectSimple.Usage","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.005b", "kpId":"KP.EN.B1.PastPerfectContinuous.Usage","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.006c", "kpId":"KP.EN.B1.TopicVocabulary.LearningAndDoing","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.006c", "kpId":"KP.EN.B1.PhrasalVerbs.LearningAndDoing","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.006c", "kpId":"KP.EN.B1.PrepositionalPhrases.LearningAndDoing","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.006c", "kpId":"KP.EN.B1.WordFormation.LearningAndDoing","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.006c", "kpId":"KP.EN.B1.WordPatterns.LearningAndDoing","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.007a", "kpId":"KP.EN.B1.FutureTime.PresentContinuous","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.007a", "kpId":"KP.EN.B1.FutureTime.Will","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.007a", "kpId":"KP.EN.B1.FutureTime.BeGoingTo","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.007a", "kpId":"KP.EN.B1.FutureTime.PresentSimple","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.008a", "kpId":"KP.EN.B1.Prepositions.In","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.008a", "kpId":"KP.EN.B1.Prepositions.On","relation":"introduces","weight":0.76}
+{"aimId": "AIM.EN.B1.008a", "kpId":"KP.EN.B1.Prepositions.At","relation":"introduces","weight":0.76}

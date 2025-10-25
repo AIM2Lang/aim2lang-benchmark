@@ -11,3 +11,17 @@
 {"lessonId":"LESS.EN.B1.U03","kpId":"KP.EN.B1.WordPatterns.FunAndGames","sequence":5,"importance":"core","pageSpan":"p.15","confidence":0.95}
 {"lessonId":"LESS.EN.B1.U04","kpId":"KP.EN.B1.PresentPerfectSimple.Usage","sequence":1,"importance":"core","pageSpan":"p.18-19","confidence":0.95}
 {"lessonId":"LESS.EN.B1.U04","kpId":"KP.EN.B1.PresentPerfectContinuous.Usage","sequence":2,"importance":"core","pageSpan":"p.20","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U05","kpId":"KP.EN.B1.PastPerfectSimple.Usage","sequence":1,"importance":"core","pageSpan":"p.22–23","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U05","kpId":"KP.EN.B1.PastPerfectContinuous.Usage","sequence":2,"importance":"core","pageSpan":"p.22–23","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U06","kpId":"KP.EN.B1.TopicVocabulary.LearningAndDoing","sequence":1,"importance":"core","pageSpan":"p.24–27","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U06","kpId":"KP.EN.B1.PhrasalVerbs.LearningAndDoing","sequence":2,"importance":"core","pageSpan":"p.26","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U06","kpId":"KP.EN.B1.PrepositionalPhrases.LearningAndDoing","sequence":3,"importance":"core","pageSpan":"p.26","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U06","kpId":"KP.EN.B1.WordFormation.LearningAndDoing","sequence":4,"importance":"core","pageSpan":"p.27","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U06","kpId":"KP.EN.B1.WordPatterns.LearningAndDoing","sequence":5,"importance":"core","pageSpan":"p.27","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U07","kpId":"KP.EN.B1.FutureTime.PresentContinuous","sequence":1,"importance":"core","pageSpan":"p.30–32","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U07","kpId":"KP.EN.B1.FutureTime.Will","sequence":2,"importance":"core","pageSpan":"p.30–32","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U07","kpId":"KP.EN.B1.FutureTime.BeGoingTo","sequence":3,"importance":"core","pageSpan":"p.30–32","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U07","kpId":"KP.EN.B1.FutureTime.PresentSimple","sequence":4,"importance":"core","pageSpan":"p.30–32","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U08","kpId":"KP.EN.B1.Prepositions.In","sequence":1,"importance":"core","pageSpan":"p.33–35","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U08","kpId":"KP.EN.B1.Prepositions.On","sequence":2,"importance":"core","pageSpan":"p.33–35","confidence":0.95}
+{"lessonId":"LESS.EN.B1.U08","kpId":"KP.EN.B1.Prepositions.At","sequence":3,"importance":"core","pageSpan":"p.33–35","confidence":0.95}

@@ -1,0 +1,3 @@
+{"aimId": "AIM.EN.B1.034a", "kpId": "KP.EN.B1.Objects.Direct", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.034a", "kpId": "KP.EN.B1.Objects.Indirect", "relation": "introduces", "weight": 0.76}
+{"aimId": "AIM.EN.B1.034a", "kpId": "KP.EN.B1.Objects.Order", "relation": "introduces", "weight": 0.76}
