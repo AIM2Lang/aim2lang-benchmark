@@ -1,0 +1,28 @@
+{
+  "lessonId": "LESS.EN.B1.U01",
+  "label": "Unit 1 – Present simple, present continuous, stative verbs",
+  "bookSource": "Destination B1 Unit 1",
+  "cefr": "B1",
+  "skills": ["grammar","writing","speaking"],
+  "knowledgePoints": [
+    {"kpId":"KP.EN.B1.PresentSimple.Usage","sequence":1,"importance":"core"},
+    {"kpId":"KP.EN.B1.PresentContinuous.Usage","sequence":2,"importance":"core"},
+    {"kpId":"KP.EN.B1.StativeVerbs.Recognition","sequence":3,"importance":"core"}
+  ],
+  "description":"Learners distinguish between present simple, present continuous, and stative verbs and apply them in communicative tasks.",
+  "assessmentPolicy":"all-required"
+}
+{
+  "lessonId": "LESS.EN.B1.U01",
+  "label": "Unit 1 – Present simple, present continuous, stative verbs",
+  "bookSource": "Destination B1 Unit 1",
+  "cefr": "B1",
+  "skills": ["grammar","writing","speaking"],
+  "knowledgePoints": [
+    {"kpId":"KP.EN.B1.PresentSimple.Usage","sequence":1,"importance":"core"},
+    {"kpId":"KP.EN.B1.PresentContinuous.Usage","sequence":2,"importance":"core"},
+    {"kpId":"KP.EN.B1.StativeVerbs.Recognition","sequence":3,"importance":"core"}
+  ],
+  "description":"Learners distinguish between present simple, present continuous, and stative verbs and apply them in communicative tasks.",
+  "assessmentPolicy":"all-required"
+}

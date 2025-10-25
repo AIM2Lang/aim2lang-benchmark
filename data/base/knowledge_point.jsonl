@@ -1,0 +1,71 @@
+{
+  "kpId": "KP.EN.B1.PresentSimple.Usage",
+  "label": "Present Simple – Usage and Form",
+  "category": "pattern",
+  "definition": "Describe habits, states, and general truths using the base form or -s/-es for third person singular.",
+  "examples": {
+    "positive": ["She plays tennis every Saturday."],
+    "negative": ["She don’t play tennis every Saturday."],
+    "question": ["Does she play tennis every Saturday?"]
+  },
+  "metadata": {"cefr":"B1","skill":"grammar"}
+}
+{
+  "kpId": "KP.EN.B1.PresentContinuous.Usage",
+  "label": "Present Continuous – Usage and Form",
+  "category": "pattern",
+  "definition": "Use am/is/are + V-ing for actions happening now or temporary actions.",
+  "examples": {
+    "positive": ["I am watching TV."],
+    "negative": ["I not watching TV."],
+    "question": ["Are you watching TV?"]
+  },
+  "metadata": {"cefr":"B1","skill":"grammar"}
+}
+{
+  "kpId": "KP.EN.B1.UsedTo.FormAndMeaning",
+  "label": "Used to – Form and Meaning",
+  "category": "pattern",
+  "definition": "Use used to + base verb to talk about past habits or states that are no longer true.",
+  "examples": {
+    "positive": ["I used to play football every weekend."],
+    "negative": ["I didn’t use to play football every weekend."],
+    "question": ["Did you use to play football every weekend?"]
+  },
+  "metadata": {"cefr":"B1","skill":"grammar"}
+}
+{
+  "kpId": "KP.EN.B1.PastContinuous.Usage",
+  "label": "Past Continuous – Usage and Form",
+  "category": "pattern",
+  "definition": "Use was/were + V-ing to describe actions in progress at a past time or background actions.",
+  "examples": {
+    "positive": ["I was watching TV when she called."],
+    "negative": ["I wasn’t watching TV when she called."],
+    "question": ["Were you watching TV when she called?"]
+  },
+  "metadata": {"cefr":"B1","skill":"grammar"}
+}
+{
+  "kpId": "KP.EN.B1.PastSimple.Usage",
+  "label": "Past Simple – Usage and Form",
+  "category": "pattern",
+  "definition": "Use past simple for completed actions in the past using V2 or -ed forms.",
+  "examples": {
+    "positive": ["I visited Rome last year."],
+    "negative": ["I didn’t visited Rome last year."],
+    "question": ["Did you visit Rome last year?"]
+  },
+  "metadata": {"cefr":"B1","skill":"grammar"}
+}
+{
+  "kpId": "KP.EN.B1.StativeVerbs.Recognition",
+  "label": "Stative Verbs – Non-action meanings",
+  "category": "concept",
+  "definition": "Identify stative verbs that describe states, thoughts, or feelings and are not normally used in continuous tenses.",
+  "examples": {
+    "positive": ["I like this song."],
+    "negative": ["I am liking this song."]
+  },
+  "metadata": {"cefr":"B1","skill":"grammar"}
+}
